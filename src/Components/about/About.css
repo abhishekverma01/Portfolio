@@ -1,0 +1,125 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 4rem;
+    padding: 1rem 0rem;
+}
+.heading{
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.theme{
+    position: relative;
+    top: -55px;
+    right: -100px;
+    width: 9rem;
+    z-index: -1;
+
+}
+.aboutSection{
+    padding: 0rem 10rem;
+    display: flex;
+    gap: 4rem;
+}
+.aboutLeft{
+    width: 625px;
+    height: 400px;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.aboutRight .above .para2{
+     margin: 1rem 0;
+}
+.aboutLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.aboutRight{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.aboutRight .above{
+    font-size: 0.9rem;
+}
+.aboutRight .below{
+    display: flex;
+    flex-direction: column;
+}
+.aboutRight .below .skills{
+    display: flex;
+    align-items: center;
+    gap:5rem;
+    margin: 10px 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.aboutRight .below .skills:hover{
+    scale: 1.04;
+}
+.aboutRight .below .skills hr{
+    height: 10px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(315deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.aboutRight .below .skill1 hr{
+    width: 60%;
+    
+}
+.aboutRight .below .skill2{
+    gap: 6.9rem
+}
+.aboutRight .below .skill2 hr{
+    width: 80%;
+}
+.aboutRight .below .skill3{
+    gap: 5.5rem;
+}
+.aboutRight .below .skill3 hr{
+    width: 70%;
+}
+.aboutRight .below .skill4{
+    gap: 7.5rem;
+}
+.aboutRight .below .skill4 hr{
+    width: 74%;
+}
+.aboutBottom{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.aboutBottom div{
+    padding: 0 6rem;
+    border-right: 2px solid white;
+    transition: 0.5s;
+}
+.aboutBottom div h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    background-clip: clip;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #00DBDE;
+    background-image: linear-gradient(315deg, #00DBDE 0%, #FC00FF 100%);
+}
+.aboutBottom div p{
+    font-weight: 500;
+}
+.aboutBottom .client{
+    border: none;
+}
+.aboutBottom div:hover {
+    scale: 1.1;
+}

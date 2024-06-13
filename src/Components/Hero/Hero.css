@@ -1,0 +1,78 @@
+.heroImg{
+    width: 220px;
+    height: 220px;
+    border-radius: 50% ;
+    border: 2px solid #fff;
+}
+.heroImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    object-fit: cover;
+    object-position: center;
+    background-color: transparent;
+}
+.Hero{
+    padding-top: 35px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow-x: hidden; */
+}
+.Hero h1{
+    width: 60% ;
+    font-size: 55px;
+    line-height: 4.3rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+.Hero h1 span{
+    background-color: #00DBDE;
+    background-image: linear-gradient(315deg, #00DBDE 0%, #FC00FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Hero p{
+    width: 50% ;
+    text-align: center;
+    font-weight: 600;
+}
+.action {
+    width: 30%;
+    display: flex;
+    gap: 40px;
+    margin-top: 1.2rem;
+    text-align: center;
+}
+.hero-connect{
+    width: 49%;
+    height: 100%;
+    padding: 1.5rem 0rem;
+    font-size: 0.95rem;
+    background-color: rebeccapurple;
+    border-radius: 40px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(315deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+} 
+.resume {
+    width: 49%;
+    height: 100%;
+    padding: 1.5rem 0 ;
+    /* padding: 1.5rem 2.5rem; */
+    font-size: 0.95rem;
+    border-radius: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.resume:hover{
+    border: 2px solid rgb(60, 66, 122);
+}
