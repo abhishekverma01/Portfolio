@@ -1,0 +1,14 @@
+.touch_heading{
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    /* width: fit-content; */
+}
+.touch_heading img{
+    position: absolute;
+    bottom: 0;
+    right: -1rem;
+    width: 10rem;
+    z-index: -1;
+}
