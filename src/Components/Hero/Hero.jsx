@@ -5,7 +5,7 @@ import photoSec from "../../assets/photoSec.jpg"
 
 const Hero = () => {
   return (
-    <div className="Hero"> 
+    <div id="home" className="Hero"> 
       <div className="heroImg">
         <img src={photoSec} alt='myImg'/>
       </div>

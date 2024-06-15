@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import "../../assets/portfolioi1.png"
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
   return (
@@ -10,14 +11,14 @@ const Navbar = () => {
         </div>
         <div className='navlist_container'>
             <ul className="list">
-                <li>Home</li>
-                <li>AboutMe</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><AnchorLink href='#home' className='anchorLinks'>Home</AnchorLink></li>
+                <li><AnchorLink href='#aboutMe' className='anchorLinks'>AboutMe</AnchorLink></li>
+                <li><AnchorLink href='#Services' className='anchorLinks'>Services</AnchorLink></li>
+                <li><AnchorLink href='#Portfolio' className='anchorLinks'>Portfolio</AnchorLink></li>
+                <li><AnchorLink href='#Contact' className='anchorLinks'>Contact</AnchorLink></li>
             </ul>
         </div>
-        <div className="connect">Connect With Me</div>
+        <div className="connect"><AnchorLink href='#Contact' className='anchorLinks'>Connect with me</AnchorLink></div>
     </nav>
   )
 }

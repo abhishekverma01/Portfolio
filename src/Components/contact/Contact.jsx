@@ -6,7 +6,7 @@ import Form from './form';
 import "./Contact.css"
 const Contact = () => {
   return (
-    <div className='Contact'>
+    <div id='Contact' className='Contact'>
       <Heading />
        <div className="bottom">
        <Talk />

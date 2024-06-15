@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* gap: 13rem; */
 }
 .footerUpLeft {
     position: relative;
@@ -66,6 +67,7 @@ position: relative;
 .footerDown{
     display: flex;
     justify-content: space-between;
+    /* gap: 400px; */
     font-size: 0.9rem;
     font-weight: 300;
 }

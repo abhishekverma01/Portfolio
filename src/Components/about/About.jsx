@@ -6,7 +6,7 @@ import photoThird from "../../assets/photoThird.jpg";
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='aboutMe' className='about'>
       <div className="heading">
         <h1>About me</h1>
         <img className="theme" src={theme_pattern} alt='themeImg'/>

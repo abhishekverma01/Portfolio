@@ -6,7 +6,7 @@ import "./Work.css";
 
 const Work = () => {
   return (
-    <div className='work'>
+    <div id="Portfolio" className='work'>
         <div className="workTitle">
             <h1>My Services</h1>
             <img src={theme_pattern} alt='theme' />
